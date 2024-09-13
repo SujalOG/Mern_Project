@@ -1,0 +1,148 @@
+/* Add this CSS in your corresponding stylesheet or style tag */
+
+.container {
+    margin-top: 20px;
+    padding-right: 1000px;
+
+  }
+  
+  .emp-profile {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .pphoto {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .profile-head {
+    margin-top: 20px;
+  }
+  
+  .profile-rating span {
+    color: #3498db;
+    font-weight: bold;
+  }
+  
+  .nav-tabs .nav-link {
+    color: #333;
+    font-weight: bold;
+    border: none;
+    border-radius: 0;
+  }
+  
+  .nav-tabs .nav-link.active {
+    background-color: #3498db;
+    color: #fff;
+  }
+  
+  .profile-edit-btn {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 15px;
+    cursor: pointer;
+  }
+  
+  .profile-edit-btn:hover {
+    background-color: #2980b9;
+  }
+  
+  .profile-work p {
+    font-size: 16px;
+    color: #333;
+    margin-top: 10px;
+  }
+  
+  .profile-work a {
+    text-decoration: none;
+    color: #3498db;
+    font-weight: bold;
+  }
+  
+  .profile-work a:hover {
+    text-decoration: underline;
+  }
+  
+  .about-info {
+    margin-top: 20px;
+  }
+  
+  .tab-content {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .profile-tab label {
+    font-weight: bold;
+  }
+  
+  .profile-tab p {
+    color: #333;
+    font-size: 16px;
+  }
+  
+  /* Responsive Styles */
+  
+  @media screen and (max-width: 768px) {
+    .emp-profile {
+      padding: 15px;
+    }
+  
+    .profile-head h5 {
+      font-size: 24px;
+    }
+  
+    .profile-head h6 {
+      font-size: 18px;
+    }
+  
+    .nav-tabs .nav-link {
+      font-size: 14px;
+    }
+  
+    .profile-edit-btn {
+      font-size: 14px;
+    }
+  
+    .profile-tab p {
+      font-size: 14px;
+    }
+  }
+  
+  @media screen and (max-width: 576px) {
+    .emp-profile {
+      padding: 10px;
+    }
+  
+    .profile-head h5 {
+      font-size: 20px;
+    }
+  
+    .profile-head h6 {
+      font-size: 16px;
+    }
+  
+    .nav-tabs .nav-link {
+      font-size: 12px;
+    }
+  
+    .profile-edit-btn {
+      font-size: 12px;
+    }
+  
+    .profile-tab p {
+      font-size: 12px;
+    }
+  }
+  
+  /* Add more media queries as needed for your specific design breakpoints */
+  
